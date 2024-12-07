@@ -26,5 +26,43 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+header {
+    width: 100%;
+    max-width: 1050%;
+    margin: auto;
+}
 
+nav{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+nav ul{
+    margin: 0%;
+    display: flex;
+}
+
+
+nav ul li a {
+    font-size: 20;
+    font-weight: 800;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background: #d1d0d0;
+    color: #000000;
+    transition: all.3s;
+}
 </style>
